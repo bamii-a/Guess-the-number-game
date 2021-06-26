@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <section class="section-center first-section">
+        <nav class="nav section-center">
+          <h4 class="nav-head">Random Number Game</h4>
+        </nav>
+
+        <div class="body">
+          <div class="">
+            <h4>responses</h4>
+          </div>
+          <div class="randomBox">
+            <h5>There is a hidden random number in the box</h5>
+          </div>
+          <div class="hidden">
+            <h4 class="hidden-number"></h4>
+          </div>
+          <div class="responses">
+            <h5 class="answerbox"></h5>
+          </div>
+          <div class="error-numbers">
+            <h5 class="error-number">
+              previous error: <span class="errorBase"></span>
+            </h5>
+          </div>
+          <h5 class="pick-number">pick a number from 1 - 100</h5>
+          <form class="text-field-proposal">
+            <label for="guessInput" class="field-proposal">
+              <input
+                type="number"
+                name="guessInput"
+                value=""
+                id="guessInput"
+                class="input-text"
+                placeholder="Pick A Number"
+              />
+            </label>
+            <button type="button" value="submit" class="btn">CLICK HERE</button>
+          </form>
+          <button class="btn refresh" onclick="window.location.reload()">
+            Refresh
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
