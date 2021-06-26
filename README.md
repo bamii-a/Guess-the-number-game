@@ -2,7 +2,7 @@
 
 ## Simple guess number game done in Vanilla Javascript // mobile and tablet friendly
 
-### Functionality
+#### Functionality
 - When page loads, a number is randomly generated and kept hidden
 - A text field is provided to make your prediction
 - A button is available to check if the proposed number is the correct one
