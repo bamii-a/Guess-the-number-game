@@ -199,6 +199,7 @@ visibility: hidden;
   border-radius: 6px;
   border: none;
   padding: 16px 16px;
+  border: 1px solid rgb(143, 123, 143);
 }
 
 /* 991px above */
