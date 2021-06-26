@@ -1,6 +1,6 @@
 # Guess-the-number-game
 
-## Simple guess number game done in Vanilla Javascript // mobile and tablet friendly
+#### Simple guess number game done in Vanilla Javascript // mobile and tablet friendly
 
 #### Functionality
 - When page loads, a number is randomly generated and kept hidden
