@@ -2,6 +2,8 @@
 
 #### Simple guess number game done in Vanilla Javascript // mobile and tablet friendly
 
+https://bamii-guess-the-number-game.netlify.app
+
 #### Functionality
 - When page loads, a number is randomly generated and kept hidden
 - A text field is provided to make your prediction
